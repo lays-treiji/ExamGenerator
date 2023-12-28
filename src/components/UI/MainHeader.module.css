@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  padding: 10px;
+  margin-left: 1%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); 
+  border-radius: 14px; 
+  background-color: #252424;
+}
+
+.header h1 {
+  color: white;
+
+  
+}
+
+
+
+
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 2rem;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  background-color: #252421;
+  z-index: 0;
+  
+}
+
+.footer h2 {
+  color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.footer img {
+  width: 30px;
+  height: 20px;
+}
+.footer p{
+  color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  
+}

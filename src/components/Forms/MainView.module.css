@@ -1,0 +1,143 @@
+.nav {
+  float: inherit;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #252424;
+  border-radius: 10px;
+  border: 1px solid #252424;
+  width: 30%;
+}
+.nav img {
+  margin: auto;
+  width: 50%;
+  border: 1px solid #252424;
+  border-radius: 10px;
+  display: flex;
+}
+
+.nav img:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+.nav button {
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(7, 6, 6);
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  
+  margin: 10px auto auto auto;
+  width: 50%;
+  display: flex;
+  cursor: pointer;
+}
+
+.nav  a{
+  text-decoration: none; 
+}
+
+.nav button:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+.loginButton button :hover{
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+.loginButton button {
+  
+  /* color: rgb(255, 255, 255);
+  display: flex;
+  margin: 10px auto;
+  background: #252424;  
+  cursor: pointer;
+    justify-content: center;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+  width: 200px; */
+
+  justify-content: center;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: #252024;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  margin: 10px auto auto auto;
+  width: 20%;
+  display: flex;
+  cursor: pointer;
+}
+.loginButton a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.loginButton section {
+  align-items: flex-start;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding: 0px;
+}
+.loginButton h2 {
+  font-size: 1.50rem;
+  display: inline;
+  text-align: right;
+  color: azure;
+}
+.Button button {
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(7, 6, 6);
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  margin: 10px auto auto auto;
+  width: 20%;
+  display: flex;
+  cursor: pointer;
+}
+
+.Button a {
+  text-decoration: none;
+  color: #181717;
+}
+
+.Button button :hover{
+  color: #3e530c;
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+.Button section {
+  align-items: center;
+  border: 1px solid #2a2828;
+  border-radius: 1rem;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.Button h2 {
+  font-size: 1.50rem;
+  display: inline;
+  text-align: right;
+  color: aliceblue;
+}
+
+.Button input {
+ align-items: center;
+  
+}

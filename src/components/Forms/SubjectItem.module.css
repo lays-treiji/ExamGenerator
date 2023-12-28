@@ -1,0 +1,63 @@
+  .item{
+    border: 1px solid #252424;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+    background-color: #252424;  
+    
+  }
+  .item h3 {
+    color: white;
+    
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  
+  .price {
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    border-radius: 30px;
+   
+    background-color: #3a3a3a;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  
+  
+  .actions button {
+    justify-content: center;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(7, 6, 6);
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+    margin: 10px auto auto auto;
+    width: 20%;
+    display: flex;
+    cursor: pointer;
+  }
+
+ .actions button:hover{
+   color: #3e5303;
+   transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+ }
+
+.actions span{
+  color: rgb(29, 230, 10);
+  text-align: center;
+  margin: 10px;
+  font-size: 20px; 
+}  

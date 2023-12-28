@@ -1,0 +1,84 @@
+.products{
+    background-color: #181717;
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.products h2 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .products ul {
+    list-style: none;
+    margin: 15px;
+    padding: 10px;
+    
+      
+  }
+  .Button button {
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(7, 6, 6);
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+    margin: 10px auto auto auto;
+    width: 20%;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .Button a {
+    text-decoration: none;
+    color: #181717;
+  }
+  
+  .Button button :hover{
+    color: #3e530c;
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }
+
+  .Button section {
+    align-items: center;
+    border: 1px solid #2a2828;
+    border-radius: 1rem;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+  }
+  .Button h2 {
+    font-size: 1.25rem;
+    display: inline;
+    text-align: right;
+  }
+
+  .Button input {
+   align-items: center;
+    
+  }
+
+ .part{
+  border: 0.3rem solid #252424;
+  border-radius: 15px;
+ padding: 10px;
+ margin: 10px;
+
+ }
+ 
+ .part h2{
+   color: rgb(29, 230, 10);
+   font-size: 25px;
+   margin: 10px;
+ }
+  
+  
